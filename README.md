@@ -7,6 +7,7 @@ Does only occur on Ubuntu 20.04 (with nvidia 440 drivers). Same code works on Wi
 
 Steps to reproduce:
 1. git clone https://github.com/merschformann/avalonia-skia-minimal
+1. cd avalonia-skia-minimal
 1. dotnet build
 1. dotnet run
 1. echo $? (to show error code 139)
