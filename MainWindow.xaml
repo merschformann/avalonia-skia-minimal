@@ -1,0 +1,12 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:rendering="clr-namespace:Skia.Debug.Rendering"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Skia.Debug.MainWindow"
+        Title="Skia.Debug">
+    <Grid RowDefinitions="Auto" ColumnDefinitions="Auto">
+        <rendering:ElementRenderer Name="DrawingBoard" Width="1500" Height="1000" />
+    </Grid>
+</Window>
