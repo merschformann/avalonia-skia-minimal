@@ -3,14 +3,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:rendering="clr-namespace:Skia.Debug.Rendering"
-        xmlns:pages="clr-namespace:Skia.Debug.Pages"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Skia.Debug.MainWindow"
         Title="Skia.Debug">
     <TabControl>
-        <TabItem Header="CustomSkiaPage">
-            <pages:CustomSkiaPage/>
-        </TabItem>
         <TabItem Header="ElementRenderer">
             <rendering:ElementRenderer Name="DrawingBoard" Width="1500" Height="1000" />
         </TabItem>
